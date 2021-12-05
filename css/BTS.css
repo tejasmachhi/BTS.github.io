@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: auto;
+}
+.header-main {
+  background: url(img/cam-bgm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* header {
+  overflow: hidden;
+  color: #0a0a0a;
+  background-color: darkgrey;
+}
+
+.logo {
+  border-radius: 1px;
+  margin: 1px;
+  font-family: fantasy;
+  font-size: large;
+  text-transform: uppercase;
+  color: rgba(34, 33, 33, 0.966);
+  float: left;
+  width: 20%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+ul {
+  float: right;
+  padding: inherit;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+li a {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+li a:hover {
+  border-radius: 50px;
+  background-color: #111;
+  color: white;
+}
+
+.menu-section {
+  width: 79%;
+  overflow: hidden;
+  float: right;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* welcome- section */
+
+section.welcome-section {
+  clear: both;
+}
+
+.welcome-box {
+  text-align: center;
+  padding: 155px 0px 155px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  font-size: 3rem;
+  color: aliceblue;
+  font-family: monospace;
+}
+*/
+
+/* about section */
+.about-section {
+  display: flex;
+  color: aliceblue;
+  height: 75vh;
+  width: 100%;
+  background: url(img/IMG_7921.jpg);
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size: cover;
+}
+
+.about-section {
+  display: flex;
+  color: aliceblue;
+  height: 75vh;
+  width: 100%;
+  background: url(img/IMG_7921.jpg);
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size: cover;
+}
+
+.about-title {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.about-info {
+  text-align: center;
+}
+
+/* slider section */
+.content {
+  text-align: center;
+  overflow: hidden;
+  height: 75vh;
+  width: auto;
+  background: black;
+  background-size: cover;
+}
+
+.media-29101 img {
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  height: 300px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* .logo {
+    text-align: center;
+    width: 100%;
+  }
+  .menu-section {
+    text-align: center;
+    width: 100%;
+  }
+
+  ul {
+    float: none;
+  }
+  li {
+    float: none;
+  } */
+
+  .header .logo {
+    font-size: 2em;
+  }
+  .about-section {
+    height: auto;
+  }
+
+  .header {
+    background-color: #00000091;
+  }
+}
